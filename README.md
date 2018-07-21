@@ -1,21 +1,6 @@
 # react-markdown
 
-Renders Markdown as pure React components.
-
-[![npm version](https://img.shields.io/npm/v/react-markdown.svg?style=flat-square)](http://browsenpm.org/package/react-markdown)[![Build Status](https://img.shields.io/travis/rexxars/react-markdown/master.svg?style=flat-square)](https://travis-ci.org/rexxars/react-markdown)
-
-Demo available at https://rexxars.github.io/react-markdown/
-
----
-
-react-markdown is proudly sponsored by
-
-<a href="https://www.sanity.io/?utm_source=GitHub&utm_campaign=react-markdown" rel="nofollow" target="_blank">
-  <img src="https://www.sanity.io/static/images/logo_red.svg?v=2" width="300"><br />
-  Sanity: The Headless CMS Construction Kit
-</a>
-
----
+**FORK OF https://github.com/rexxars/react-markdown**
 
 ## Installing
 
@@ -86,7 +71,7 @@ this has been planned, but if you're feeling up to the task, create an issue and
   varies based on the type of node.
   * With one exception: if the key is `text`, the value should be a function that takes the literal text and returns a new string or React element.
 * `plugins` - _array_ An array of unified/remark parser plugins. If you need to pass options to the plugin, pass an array with two elements, the first being the plugin and the second being the options - for instance: `{plugins: [[require('remark-shortcodes'), {your: 'options'}]]`. (default: `[]`)
- 
+
 
 ## Node types
 

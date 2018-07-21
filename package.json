@@ -1,7 +1,7 @@
 {
-  "name": "react-markdown",
+  "name": "@staltz/react-markdown",
   "description": "Renders Markdown as React components",
-  "version": "3.3.4",
+  "version": "103.3.4",
   "keywords": [
     "markdown",
     "react",
@@ -22,9 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rexxars/react-markdown.git"
+    "url": "git@github.com:staltz/react-markdown.git"
   },
   "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "contributors": [
+    "Andre Staltz <contact@staltz.com>"
+  ],
   "license": "MIT",
   "gh-pages-deploy": {
     "noprompt": true,
@@ -62,6 +65,9 @@
     "rimraf": "^2.6.2",
     "webpack": "^4.1.0",
     "webpack-cli": "^2.0.10"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0"
